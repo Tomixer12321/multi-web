@@ -1,9 +1,13 @@
-
+import { Link } from "react-router-dom"
 
 const Movies = () => {
-  return (
-    <div>Movies</div>
-  )
+  return <section>
+    <ul>
+        <li><Link to="/">Domovska stranka</Link></li>
+        <li>filmy</li>
+        <li><Link to="/serials">serialy</Link></li>
+    </ul>
+  </section>
 }
 
 export default Movies
