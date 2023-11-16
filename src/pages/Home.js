@@ -8,6 +8,7 @@ const Home = () => {
   <section>
     <Outlet />
   </section>
+  <Footer />
   </>
 }
 
