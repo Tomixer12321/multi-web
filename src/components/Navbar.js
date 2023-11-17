@@ -1,14 +1,15 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import "./Navbar.css"
 
 const Navbar = () => {
   return (
     <header>
       <nav>
-        <Link to="/">Domu</Link>
+        <NavLink to="/">Domu</NavLink>
         <br />
-        <Link to="/movies">Filmy</Link>
+        <NavLink to="/movies">Filmy</NavLink>
         <br />
-        <Link to="/serials">Serialy</Link>
+        <NavLink to="/serials">Serialy</NavLink>
       </nav>
     </header>
   );
