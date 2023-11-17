@@ -5,11 +5,11 @@ const Navbar = () => {
   return (
     <header>
       <nav>
-        <NavLink to="/">Domu</NavLink>
+        <NavLink to="/" className={({isActive})=>isActive?"activeLink":"nonActiveLink"}>Domu</NavLink>
         <br />
-        <NavLink to="/movies">Filmy</NavLink>
+        <NavLink to="/movies" className={({isActive})=>isActive?"activeLink":"nonActiveLink"}>Filmy</NavLink>
         <br />
-        <NavLink to="/serials">Serialy</NavLink>
+        <NavLink to="/serials" className={({isActive})=>isActive?"activeLink":"nonActiveLink"}>Serialy</NavLink>
       </nav>
     </header>
   );
