@@ -1,9 +1,15 @@
-
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const SharedLazout = () => {
   return (
-    <div>SharedLazout</div>
-  )
-}
+    <>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </>
+  );
+};
 
-export default SharedLazout
+export default SharedLazout;

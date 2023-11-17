@@ -1,13 +1,11 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Movies = () => {
-  return <section>
-    <ul>
-        <li><Link to="/">Domovska stranka</Link></li>
-        <li>filmy</li>
-        <li><Link to="/serials">serialy</Link></li>
-    </ul>
-  </section>
-}
+  return (
+    <section>
+      <h1>Filmy</h1>
+    </section>
+  );
+};
 
-export default Movies
+export default Movies;

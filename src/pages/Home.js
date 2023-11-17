@@ -4,13 +4,9 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <>
-      <Navbar />
-      <section>
-        <Outlet />
-      </section>
-      <Footer />
-    </>
+    <section>
+      <h1>uvodni strana</h1>
+    </section>
   );
 };
 
