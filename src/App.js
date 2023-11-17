@@ -4,6 +4,7 @@ import Movies from "./pages/Movies";
 import Serials from "./pages/Serials";
 import Error from "./pages/Error";
 import SharedLazout from "./pages/SharedLazout";
+import OneMovie from "./components/OneMovie";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="/serials" element={<Serials />} />
+          <Route path="/all-movies/:movieID" element={<OneMovie />}/>
         </Route>
         <Route path="*" element={<Error />} />
       </Routes>
