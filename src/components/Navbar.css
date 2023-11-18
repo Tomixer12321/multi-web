@@ -1,6 +1,14 @@
-.activeLink{
-    color: red;
+nav {
+  margin-top: 10px;
+  font-size: 20px;
 }
-.nonActiveLink{
-    color: grey;
+.link {
+  margin-left: 10px;
+  text-decoration: none;
+}
+.activeLink {
+  color: #e50914;
+}
+.nonActiveLink {
+  color: #e5e5e5;
 }

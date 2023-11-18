@@ -1,0 +1,10 @@
+.one-movie-more{
+    text-align: center;
+}
+.one-movie-more a{
+    text-decoration: none;
+    color: #e5e5e5;
+    background-color: #e50914;
+    padding: 5px 10px;
+    font-size: 18px;
+}

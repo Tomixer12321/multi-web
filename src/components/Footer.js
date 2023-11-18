@@ -1,7 +1,9 @@
+import "./Footer.css"
+
 const Footer = () => {
   return (
     <footer>
-      <p>Paticka</p>
+      <p>&copy; David Setek,2023</p>
     </footer>
   );
 };
